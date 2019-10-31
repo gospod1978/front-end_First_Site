@@ -1,0 +1,89 @@
+.site-content {
+    background: #F8F8F8;
+}
+
+.about {
+    display: flex;
+    height: 60em;
+    background: #FFF;
+    position: relative;
+    z-index: 30;
+    top: -3em;
+    box-shadow: 0 0 1em 0 rgba(0,0,0,0.1);
+    margin-bottom: 3em;
+    padding: 5em;
+}
+
+.about-title {
+    padding-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.about-title a {
+    color: #222;
+}
+
+.about-meta {
+    margin-bottom: 3em;
+    font-size: 1.5em;
+}
+
+.about-meta a {
+    color: #666;
+    font-size: 1.2em;
+}
+
+.about-content ul {
+    font-size: 1.2em;
+}
+
+
+.about-content li {
+    color: #666;
+    padding-bottom: 0.4em;
+}
+
+.about-content a {
+    color: #666;
+}
+
+.about-content li:hover a,
+.about-content li:hover,
+.about-title:hover a,
+.about-meta:hover a {
+    color: #3498db;
+    font-size: 1.2em;
+    transition: transform 0.3s ease-in-out;
+}
+
+.get {
+    margin-top: 1em;
+}
+
+.button {
+    margin-top: -5rem;
+    padding: 1.5em 2.5em;
+    border-radius: 0.3em;
+    background: #3498db;
+    box-shadow: 0 0 1em 0 rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.button a {
+    color: #FFF;
+}
+
+.button:hover {
+    border: 2px solid #3498db;
+    background: #FFF;
+}
+.button:hover a {
+    color: #3498db;
+    font-size: 1.2em;
+}
+
+span {
+    text-decoration: underline;
+}
+
